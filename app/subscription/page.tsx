@@ -4,7 +4,11 @@ import React from 'react'
 const Subscription = () => {
   return (
     // <div>Subscription</div>
-    <PricingTable/>
+
+    // <PricingTable/>
+    <main>
+      <PricingTable/>
+    </main>
   )
 }
 
