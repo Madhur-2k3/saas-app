@@ -2,9 +2,8 @@
 import { cn, configureAssistant, getSubjectColor } from '@/lib/utils'
 import { vapi } from '@/lib/vapi.sdk';
 import Image from 'next/image';
-import React, { use, useEffect, useRef, useState } from 'react'
-import { set } from 'react-hook-form';
-import Lottie, { LottieRef, LottieRefCurrentProps } from 'lottie-react';
+import React, {  useEffect, useRef, useState } from 'react'
+import Lottie, { LottieRefCurrentProps } from 'lottie-react';
 import soundwaves from  '@/constants/soundwaves.json';
 import { addToSessionHistory } from '@/lib/actions/companion.actions';
 
